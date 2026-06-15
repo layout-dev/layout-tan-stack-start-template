@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build / server output
+dist/
+.output/
+.nitro/
+.tanstack/
+.vinxi/
+.wrangler/
+
+# Vite
+.vite/
+*.local
+
+# Environment (keep .env.example committed)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
